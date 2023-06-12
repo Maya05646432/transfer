@@ -1501,11 +1501,6 @@ padding: 15px;
     font-size: 0.6875rem;
   }
 }
-@media (max-width: 29.99875em) {
-  .block-about__text {
-    font-size: 0.5625rem;
-  }
-}
 
 .transfer-order {
   display: block;
