@@ -1238,6 +1238,11 @@ padding: 15px;
   transform: translate(0px, 0px);
   opacity: 1;
 }
+@media (max-width: 29.99875em) {
+  .text-glav {
+    font-size: 13vw;
+  }
+}
 
 .bottom-section-main__text_span {
   display: flex;
