@@ -1420,10 +1420,14 @@ padding: 15px;
   text-align: center;
   vertical-align: middle;
   position: relative;
-  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (min-width: 61.99875em) {
+  .about-main-block {
+    background-attachment: fixed;
+  }
 }
 
 .block-about__body {
