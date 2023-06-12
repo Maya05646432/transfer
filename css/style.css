@@ -1469,14 +1469,18 @@ padding: 15px;
   }
 }
 .block-about__text {
-  font-size: 1.25rem;
   font-weight: 300;
   color: black;
-  opacity: 0;
-  transition: all 0.8s ease 0s;
 }
-.block-about__text.element-show {
-  opacity: 0.7;
+@media (min-width: 61.99875em) {
+  .block-about__text {
+    opacity: 0;
+    font-size: 1.25rem;
+    transition: all 0.8s ease 0s;
+  }
+  .block-about__text.element-show {
+    opacity: 0.7;
+  }
 }
 @media (max-width: 61.99875em) {
   .block-about__text {
@@ -2551,10 +2555,12 @@ textarea {
     border: 2px solid rgba(190, 255, 52, 0.2);
   }
 }
-@media (max-width: 29.99875em) {
+@media (max-width: 47.99875em) {
   .block-service__item {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 .block-service__link_title {
